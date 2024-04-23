@@ -1,17 +1,11 @@
 # Military-Django-website
 
-Create a virtual environment (optional but recommended): virtualenv env or python -m venv env
+##Steps
 
-Activate the virtual environment:
-
-On Windows:
-env\Scripts\activate
-Navigate to the project directory: cd mod
-
-Install the required packages: pip install -r requirements.txt
-
-Apply migrations: python manage.py migrate
-
-Run the development server: python manage.py runserver
+1. -> python -m venv env
+2. -> env\Scripts\activate
+3. -> pip install -r requirements.txt
+4. -> python manage.py migrate
+5. -> python manage.py runserver
 
 Access the application in your web browser at http://127.0.0.1:8000/
